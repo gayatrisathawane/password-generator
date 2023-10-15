@@ -53,9 +53,9 @@ function App() {
 
           <div className='d-block mx-auto'>
 
-            <input type="text" className="inputfield p-2 mt-5" placeholder="pasword" aria-label="Recipient's username" aria-describedby="basic-addon2" value={Password} readOnly ref={passwordRef} />
+            <input type="text" className="inputfield p-2 mt-5 fs-4" placeholder="pasword" aria-label="Recipient's username" aria-describedby="basic-addon2" value={Password} readOnly ref={passwordRef} />
 
-            <button className=" btn-dark copy-button" id="basic-addon2" onClick={copyPasswordGenerator} >copy</button>
+            <button className="copy-button fs-4" id="basic-addon2" onClick={copyPasswordGenerator} >copy</button>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ function App() {
               setLength(e.target.value)
             }} />
 
-            <label className="ms-5 fs-4"> Length : {length}</label>
+            <label className="ms-5 fs-3"> Length : {length}</label>
             <input
               type="checkbox" name='' id=''
               defaultChecked={numberAllowed}
@@ -74,7 +74,7 @@ function App() {
               }} 
               className="ms-5 fs-4 check-input" />
 
-              <label className="ms-2 fs-4">Number</label>
+              <label className="ms-2 fs-3">Number</label>
 
             <input
               type="checkbox"
@@ -84,7 +84,7 @@ function App() {
               }}
               className="ms-5 check-input" />
 
-            <label className="text-center ms-2 fs-4">Character</label>
+            <label className="text-center ms-2 fs-3">Character</label>
           </div>
         </div>
 

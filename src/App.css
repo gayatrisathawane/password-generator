@@ -5,12 +5,13 @@
 
 .copy-button {
   /* padding: 4px 10px; */
-  /* background-color: black;
-  color: white; */
+ background-color: rgb(4, 105, 188);
+  
   padding:9px 25px;
-  background-color: rgb(244, 235, 235);
+  /* background-color: rgb(244, 235, 235); */
   
   border: none;
+  color: white;
   font-weight: bold;
   /* font-size: 20px; */
   /* border-radius: 5px; */
@@ -31,7 +32,7 @@
 }
 
 .check-input{
-  height: 20px;
+  height: 30px;
   width:  20px;
   margin-top: 8px;
 }
