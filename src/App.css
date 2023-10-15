@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.inputfield {
+  width: 600px;
+  border: 1px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.copy-button {
+  /* padding: 4px 10px; */
+  /* background-color: black;
+  color: white; */
+  padding:9px 25px;
+  background-color: rgb(244, 235, 235);
+  
+  border: none;
+  font-weight: bold;
+  /* font-size: 20px; */
+  /* border-radius: 5px; */
+} 
+
+.password-field {
+  width: 500px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 80px; */
+  margin-top: 50px;
+  color: aliceblue;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.check-input{
+  height: 20px;
+  width:  20px;
+  margin-top: 8px;
+}
+.div{
+  border:1px solid rgb(255, 255, 255);
+  height:400px;
+  width: 800px;
+  position: relative;
+  left:260px;
+  top:50px;
+ box-shadow: 0px 0px 8px 3px  whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
+.heading{
+  font-size: 50px;
+ position: relative;
+ top:40px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-group{
+  margin-top: 100px;
 }

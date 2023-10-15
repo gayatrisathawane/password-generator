@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:linear-gradient(rgba(58, 56, 56, 0.9), rgba(42, 40, 40, 0.8)),url('https://auditbots.com/gallery/04.33AMpassb-ghcc5fbb96088384e.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+ 
+
+ 
 }
 
 code {
